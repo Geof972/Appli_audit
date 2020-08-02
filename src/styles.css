@@ -1,1 +1,16 @@
-/* Add application styles & imports to this file! */
+card-salle {
+  width: 95vw;
+  height: 300px;
+  margin: 20px 0px 0px 0px;
+}
+
+.label-tuyau {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.select-tuyau {
+  border: none;
+  border-bottom: 2px solid;
+  border-radius: 0.5rem;
+}

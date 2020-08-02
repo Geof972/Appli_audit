@@ -1,0 +1,77 @@
+{
+    "Luminaire":{
+        "Barre led 1.5m (43W)":
+        {
+            "Puissance": 43
+            ,"Longeur": 1.5
+            ,"type": "el"
+            ,"Nombre": 1
+        }
+        ,"Barre led 1.2m (28W)":
+        {
+            "Puissance": 28
+            ,"Longeur": 1.2
+            ,"type": "el"
+            ,"Nombre": 1
+        }
+        ,"Barre led 0.6m (14W)":
+        {
+            "Puissance": 14
+            ,"Longeur": 0.6
+            ,"type": "el"
+            ,"Nombre": 1
+        }
+        ,"Tube(s) fluorescent(s) 1*36W":
+        {
+            "Puissance": 36
+            ,"Longeur": 1.2
+            ,"type": "el"
+            ,"Nombre": 1
+        }
+        ,"Tube(s) fluorescent(s) 2*36W":
+        {
+            "Puissance": 36
+            ,"Longeur": 1.2
+            ,"type": "el"
+            ,"Nombre": 1
+        }
+        ,"Tube(s) fluorescent(s) 1*58W":
+        {
+            "Puissance": 58
+            ,"Longeur": 1.5
+            ,"type": "el"
+            ,"Nombre": 1
+        }   
+        ,"Tube(s) fluorescent(s) 2*58W":
+        {
+            "Puissance": 58
+            ,"Longeur": 1.5
+            ,"type": "el"
+            ,"Nombre": 1
+        }
+    }
+    , "Projet n°1":
+        {
+            "Salle n°1": 
+                {
+                    "Luminaire": 
+                        {
+                            "Barre led 0.6m (14W) xxxxH": 
+                                {
+                                    "Quantité": 25
+                                    , "Heure": 3000
+                                    , "type": "el"
+                                    , "Puissance": 1515
+                                }
+                            , "Barre led 0.6m (14W) yyyyH": 5
+                            , "Tube(s) fluorescent(s) 2*58W xxxxH": 25
+                        }
+                    ,"Tuyaux":
+                        {
+                            
+                        }
+    
+                }
+            
+        } 
+}

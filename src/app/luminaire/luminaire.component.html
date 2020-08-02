@@ -1,0 +1,71 @@
+<body class="d-flex d-lg-flex d-xl-flex flex-column align-items-center align-items-lg-center align-items-xl-center">
+    <div class="card card-salle" style="width: 95vw;height: 450px;">
+        <div class="card-header d-flex justify-content-center">
+            <h5 class="mb-0">Nom de la salle</h5>
+        </div>
+        <div class="card-body" style="height: fit-content;">
+            <div class="border rounded shadow-lg" style="margin: 25px 0px;">
+                <div class="col">
+                    <h3 class="text-center">Luminaire</h3>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div><label class="label-tuyau">Nom :</label></div><select class="select-tuyau"><optgroup label="This is a group"><option value="12" selected="">Barre led</option><option value="13">Tube fluorescent</option><option value="14">Ajouter</option></optgroup></select></div>
+                    <div
+                        class="col">
+                        <div><label class="label-tuyau">Longeur :</label></div><input type="number"></div>
+                <div class="col">
+                    <div><label class="label-tuyau">Puissance :</label></div><input type="number"></div>
+                <div class="col">
+                    <div><label class="label-tuyau">Heure :</label></div><input type="number"></div>
+                <div class="col-11 col-xl-10 d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center">
+                    <div></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 d-xl-flex justify-content-xl-center align-items-xl-center"><button class="btn btn-primary" type="button">Save</button><button class="btn btn-primary" type="button">-</button><button class="btn btn-primary" type="button">+</button><button class="btn btn-primary" type="button">Lock</button>
+                    <div
+                        class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Label</label></div>
+            </div>
+        </div>
+    </div>
+    <div class="table-responsive border rounded">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Description luminaire</th>
+                    <th>Puissance</th>
+                    <th>Quatité</th>
+                    <th>Type</th>
+                    <th>Heure</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Led 1.5m (50w)</td>
+                    <td>Cell 2</td>
+                    <td>5</td>
+                    <td>Cell 4</td>
+                    <td>250h</td>
+                    <td class="d-lg-flex justify-content-lg-center align-items-lg-center"><button class="btn btn-primary" type="button">-</button><button class="btn btn-primary" type="button">+</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <div class="col"><label>Heure de la pièce :&nbsp;</label><input type="number"></div>
+    </div>
+    </div>
+    </div>
+    <div class="row" style="width: 95vw;margin: 15px 0px;">
+        <div class="col">
+            <div><label class="label-tuyau">Afficher la salle :</label></div><select class="select-tuyau"><optgroup label="This is a group"><option value="12" selected="">Salle A</option><option value="13">Salle B</option><option value="14">Salle C</option></optgroup></select></div>
+        <div
+            class="col d-lg-flex justify-content-lg-end"><button class="btn btn-primary ajouter-salle" type="button">Ajouter une salle</button></div>
+    </div>
+    <div class="row">
+        <div class="col"><button class="btn btn-primary" type="button">Exporter toutes les salles vers exel</button></div>
+    </div>
+
+</body>
